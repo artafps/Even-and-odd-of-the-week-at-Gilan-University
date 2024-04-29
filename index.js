@@ -49,7 +49,7 @@ myBot.start(async ctx => {
             let text = 'سلام دوست من 👋\n\n'
             text += 'تاریخ امروز ::'
             text += '\n\n' + date + '\n\n'
-            text += `این هفته ${zojfard} آموزشی است.`
+            text += `این هفته ، ${zojfard} آموزشی است.`
             text += '\n\n\n راهنما » \n /start تاریخ و هفته آموزشی \n /powerby سازنده : ARTAFPS \n .'
             ctx.reply(text, {
                 reply_to_message_id: ctx.message.message_id
@@ -73,7 +73,7 @@ myBot.start(async ctx => {
                     let text = 'سلام دوست من 👋\n\n'
                     text += 'تاریخ امروز ::'
                     text += '\n\n' + date + '\n\n'
-                    text += `این هفته ${zojfard} آموزشی است.`
+                    text += `این هفته ، ${zojfard} آموزشی است.`
                     text += '\n\n\n راهنما » \n /start تاریخ و هفته آموزشی \n /powerby سازنده : ARTAFPS \n .'
                     ctx.reply(text, {
                         reply_to_message_id: ctx.message.message_id
@@ -107,5 +107,4 @@ myBot.command('powerby', async (ctx) => {
         ctx.reply('DESIGN AND BACK-END POWER BY : ARTAFPS (ARTA FALLAHPOOR) 🧑‍💻 \n :🔗:LINK:🔗: \n https://github.com/artafps')
     }
 })
-
 myBot.launch();
